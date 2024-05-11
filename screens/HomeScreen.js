@@ -1,5 +1,5 @@
-import { Text , View , Stylesheet , ScrollView , TouchableOpacity } from 'react-native';
-import FitnessCard from '../components/FitnessCards';
+import { Text , View , StyleSheet , ScrollView , TouchableOpacity } from 'react-native';
+import FitnessCards from '../components/FitnessCards.js'
 import { Ionicons } from '@expo/vector-icons';
 import { useContext , useState } from 'react';
 import { FitnessItems } from '../context';
